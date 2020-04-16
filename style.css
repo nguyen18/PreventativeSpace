@@ -1,0 +1,284 @@
+
+
+.menubar {
+    position: absolute;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 0.7;
+    color: RED
+}
+
+#name {
+    text-align: center;
+    left: 20%;
+    top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    overflow: hidden;
+    border-right: .15em solid lightblue;
+    white-space: nowrap;
+    margin-right: 50px;
+    letter-spacing: .40em;
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 450px }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: lightblue }
+}
+
+#menu {
+    
+    right: 26%;
+    top: 43px;
+    
+}
+
+#healthimage {
+    opacity: 0.6;
+}
+
+#healthimage:hover {
+    opacity: 1.0;
+}
+
+#menucontent {
+    display: none;
+    position: absolute;
+    right: 5px;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+   
+#menu:hover #menucontent {
+    display: block;
+}
+
+#menuoptions {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    width: 115px;
+    background-color: white;
+    border-style: dashed;
+    border-color: pink;
+    top: 1px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+  
+}
+
+#console {
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+li a {
+    display: block;
+    color: #000;
+    opacity: 0.6;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: skyblue;
+    opacity: 1.0;
+}
+
+#AboutUs {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#Vanessa {
+  position: absolute;
+}
+#Vanessadropdown {
+  display: none;
+  position: absolute;
+}
+
+#Vanessapic {
+  opacity: 0.7;
+}
+
+#Vanessapic:hover {
+  opacity: 1;
+}
+
+#Vanessa:hover #Vanessadropdown {
+  display: block;
+}
+
+#Lancy {
+  position: absolute;
+  margin-left: 13%;
+}
+
+#Lancydropdown {
+  display: none;
+  position: absolute;
+}
+
+#Lancypic {
+  opacity: 0.7;
+  margin-left: 40px;
+}
+
+#Lancypic:hover {
+  opacity: 1;
+}
+
+#Lancy:hover #Lancydropdown {
+  display: block;
+}
+
+#Taylor {
+  position: absolute;
+  margin-left: 30%;
+}
+
+#Taylordropdown {
+  display: none;
+  position: absolute;
+}
+
+#Taylorpic {
+  opacity: 0.7;
+  margin-left: 40px;
+}
+
+#Taylorpic:hover {
+  opacity: 1;
+}
+
+#Taylor:hover #Taylordropdown {
+  display: block;
+}
+
+#Taylor h1 {
+  color: lightblue;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 70px;
+  position: center;
+}
+
+#Taylor ul {
+  font-family: sans-serif;
+  color: black;
+  opacity: 0.7;
+  border-style: dashed;
+  border-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  width: 240px;
+}
+
+#Vanessa h1 {
+  color: purple;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 0px;
+  opacity: 0.6;
+  position: center;
+}
+
+#Vanessa ul {
+  font-family: sans-serif;
+  color: black;
+  opacity: 0.7;
+  border-style: dashed;
+  border-color: purple;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  width: 230px;
+  float: absolute;
+}
+
+#Lancy h1 {
+  color: pink;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 55px;
+  position: center;
+}
+
+#Lancy ul {
+  font-family: sans-serif;
+  color: black;
+  opacity: 0.7;
+  border-style: dashed;
+  border-color: pink;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+#LearnMoreSection {
+  border-style: dashed;
+  border-color: pink;
+  width: 50%;
+  margin-top: 8%;
+  margin-left: 18%;
+  font-family: sans-serif;
+  color: grey;
+  padding: 40px;
+}
+#LearnMoreSection2 {
+  border-style: dashed;
+  border-color: lightblue;
+  width: 50%;
+  margin-top: 25px;
+  float: absolute;
+  margin-left: 18%;
+  font-family: sans-serif;
+  color: grey;
+  padding: 40px;
+  margin-bottom: 200px;
+}
+/*
+#Taylor ul {
+  border-style: dashed;
+  border-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+  background-color: white
+}
+#Lancy ul {
+  border-style: dotted;
+  border-color: pink;
+  padding: 10px;
+  margin: 5px;
+  background-color: white
+}
+#Vanessa ul {
+  border-style: dotted;
+  border-color: purple;
+  padding: 10px;
+  margin: 5px;
+  background-color: white
+}
+*/
