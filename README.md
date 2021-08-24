@@ -21,7 +21,7 @@ We were able to get an interactive console working on our website which took us 
 
 ### What I learned
 - To put a website on the internet, you need a domain as well as a server to host it.
-- There are static sites (that only show text and don't have any backend programs running) that can be hosted by places like Github, but software such as Google - - - Firebase can also host a domain (and doesn't even require registering for a domain name).
+- There are static sites (that only show text and don't have any backend programs running) that can be hosted by places like Github, but software such as Google Firebase can also host a domain (and doesn't even require registering for a domain name).
 - We also learned that implementing APIs are complicated, but allow for applications to have a new level of depth, as with the Twilio API we were able to send a text to a phone with information related to our game, but when we tried to embed the trinket.io python console into our website it would no longer work.
 
 ### What's next
