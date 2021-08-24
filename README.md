@@ -1,8 +1,8 @@
 # PreventativeSpace
 Athena Hacks Project! made by Taylor Nguyen, Vanessa Yu, Lancy Tan
 
-https://preventionspace.web.app
-https://devpost.com/software/preventative-space
+- https://preventionspace.web.app
+- https://devpost.com/software/preventative-space
 
 ### Inspiration
 The recent Coronavirus outbreak inspired us to create a text-adventure video game that could educate the general public about the importance of taking precautions during times of mass viral infections to keep not only ourselves healthy, but others as well.
