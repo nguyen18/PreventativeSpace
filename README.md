@@ -1,6 +1,7 @@
 # PreventativeSpace
 Athena Hacks Project! made by Taylor Nguyen, Vanessa Yu, Lancy Tan
-preventionspace.web.app
+
+https://preventionspace.web.app
 https://devpost.com/software/preventative-space
 
 ### Inspiration
